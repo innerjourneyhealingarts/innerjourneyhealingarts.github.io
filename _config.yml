@@ -23,7 +23,7 @@ navbar-links:
 
 #I think i want donations in the footer
 
-  Who We Serve: "whoweserve.html"
+  Who We Serve: "/whoweserve/whoweserve.md"
   Donations: "donations.html"
   Events: "events"
   Contact Us: "contactus.html"
