@@ -1,5 +1,5 @@
 # --- General options --- #
-
+paginate_path: "/events/page:num/"
 # Name of website
 title: Inner Journey Healing Arts
 
@@ -25,7 +25,6 @@ navbar-links:
 
   Who We Serve: "whoweserve"
   About Inner Journey: "about"
-  Donations: "donations"
   Events: "events"
   Contact Us: "contactus"
 
@@ -65,14 +64,14 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Inner Journey Healing Arts
+  name: Inner Journey Healing Arts 
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
+  rss: false
   email: "innerjourney2@peoplepc.com"
 #  facebook: boop
 #  github: boop

@@ -6,7 +6,6 @@ use-site-title: true
 bigimg: /img/logo3.png
 ---
 
-<!--
 # Healing from the Inside Out
 
 Inner Journey Healing Arts is a safe and sacred place for adults and children to heal from domestic violence, trauma, and stressful life situations.
@@ -29,27 +28,29 @@ __PLEASE DONATE__...<br>
 It's fast and easy. Call <br> SHCU Phone: 503.397.2376<br>
 Toll Free: 800.275.6434 <br> Say "I would like to Donate to Inner Journey"
 {: .box-warning .text-center}
-<!-- {: .box-warning} -error -note}
+<!-- {: .box-warning} -error -note} -->
+
+[WHO DO WE SERVE?](/whoweserve/index.html)
+{: .box-note .text-center}
+
+<!--{: a.jumbotron .get-started-wrap .btn .btn-success .btn-lg .center }-->
 <br>
 
-[WHO DO WE SERVE?](whoweserve.html)
-{: a.jumbotron .get-started-wrap .btn .btn-success .btn-lg .center }
-
-<br>
-
-_Jerome Business Center 134 SE 5th Avenue, Suite C, Hillsboro, OR  97123_
+# Our Two Office Locations:
+{: .text-center}
+---------------------------
+__Jerome Business Center 134 SE 5th Avenue, Suite C, Hillsboro, OR  97123__
 {: .text-center}
 
 _(1 block from SE Washington MAX train
 &  SE 4th Max/Bus transit)_
 {: .text-center}
 
-## Assessment and Intake: (971) 777-0756
+### Assessment and Intake: (971) 777-0756
 {: .text-center}
 
-<br>
-
-161 St Helens Street, Ste 102, Saint Helens, OR 97051
+---------------------------
+__161 St Helens Street, Ste 102, Saint Helens, OR 97051__
 {: .text-center}
 
 _(Across street up 2 doors from Columbia Theatre)_
@@ -65,73 +66,7 @@ INNER JOURNEY HEALING ARTS IS A 501(C)(3) NONPROFIT ORGANIZATION. YOUR DONATIONS
 
 YOUR DONATIONS ARE ALSO TAX DEDUCTIBLE!
 {: .text-center}
+<!-- optional
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](odear.html)
 {: .text-center}
-
-<!--
-<div class="posts-list">
-  {% for post in paginator.posts %}
-  <article class="post-preview">
-    <a href="{{ post.url | relative_url }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
-
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}
-    </a>
-
-    <p class="post-meta">
-      Posted on {{ post.date | date: site.date_format }}
-    </p>
-
-    <div class="post-entry-container">
-      {% if post.image %}
-      <div class="post-image">
-        <a href="{{ post.url | relative_url }}">
-          <img src="{{ post.image | relative_url }}">
-        </a>
-      </div>
-      {% endif %}
-      <div class="post-entry">
-        {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
-        {% assign excerpt_word_count = post.excerpt | number_of_words %}
-        {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | relative_url }}" class="post-read-more">[Read&nbsp;More]</a>
-        {% endif %}
-      </div>
-    </div>
-
-    {% if post.tags.size > 0 %}
-    <div class="blog-tags">
-      Tags:
-      {% if site.link-tags %}
-      {% for tag in post.tags %}
-      <a href="{{ '/tags' | relative_url }}#{{- tag -}}">{{- tag -}}</a>
-      {% endfor %}
-      {% else %}
-        {{ post.tags | join: ", " }}
-      {% endif %}
-    </div>
-    {% endif %}
-
-   </article>
-  {% endfor %}
-</div>
-
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | relative_url }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
--->
+--> 

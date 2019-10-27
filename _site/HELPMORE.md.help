@@ -71,8 +71,8 @@
   <meta property="og:type" content="website" />
 
   
-  <meta property="og:url" content="http://localhost:4000/2015-02-28-test-markdown/" />
-  <link rel="canonical" href="http://localhost:4000/2015-02-28-test-markdown/" />
+  <meta property="og:url" content="http://localhost:4000/HELPMORE.md.help" />
+  <link rel="canonical" href="http://localhost:4000/HELPMORE.md.help" />
   
 
   
@@ -123,9 +123,9 @@
         Intake: 971-777-0756
       <ul class="nav navbar-nav navbar-right">
           <li><a href="/whoweserve">Who We Serve</a></li>
-          <li><a href="/donations.html">Donations</a></li>
+          <li><a href="/about">About Inner Journey</a></li>
           <li><a href="/events">Events</a></li>
-          <li><a href="/contactus.html">Contact Us</a></li></ul>
+          <li><a href="/contactus">Contact Us</a></li></ul>
     </div>
 
 	
@@ -163,7 +163,7 @@
 		  
 
 		  
-		  <span class="post-meta">Posted on February 28, 2015</span>
+		  <span class="post-meta">Posted on </span>
 		  
         </div>
       </div>
@@ -205,71 +205,49 @@
       
 
       <article role="main" class="blog-post">
-        <p>You can write regular <a href="http://markdowntutorial.com/">markdown</a> here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to <a href="http://markdowntutorial.com/">take 5 minutes to learn how to write in markdown</a> - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc.</p>
+        You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
 
-<p><strong>Here is some bold text</strong></p>
+**Here is some bold text**
 
-<h2 id="here-is-a-secondary-heading">Here is a secondary heading</h2>
+## Here is a secondary heading
 
-<p>Here’s a useless table:</p>
+Here's a useless table:
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Number</th>
-      <th style="text-align: left">Next number</th>
-      <th style="text-align: left">Previous number</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Five</td>
-      <td style="text-align: left">Six</td>
-      <td style="text-align: left">Four</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ten</td>
-      <td style="text-align: left">Eleven</td>
-      <td style="text-align: left">Nine</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Seven</td>
-      <td style="text-align: left">Eight</td>
-      <td style="text-align: left">Six</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Two</td>
-      <td style="text-align: left">Three</td>
-      <td style="text-align: left">One</td>
-    </tr>
-  </tbody>
-</table>
+| Number | Next number | Previous number |
+| :------ |:--- | :--- |
+| Five | Six | Four |
+| Ten | Eleven | Nine |
+| Seven | Eight | Six |
+| Two | Three | One |
 
-<p>How about a yummy crepe?</p>
 
-<p><img src="https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg" alt="Crepe" /></p>
+How about a yummy crepe?
 
-<p>It can also be centered!</p>
+![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
 
-<p><img src="https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg" alt="Crepe" class="center-block" /></p>
+It can also be centered!
 
-<p>Here’s a code chunk:</p>
+![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .center-block :}
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var foo = function(x) {
+Here's a code chunk:
+
+~~~
+var foo = function(x) {
   return(x + 5);
 }
 foo(3)
-</code></pre></div></div>
+~~~
 
-<p>And here is the same code with syntax highlighting:</p>
+And here is the same code with syntax highlighting:
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
-  <span class="k">return</span><span class="p">(</span><span class="nx">x</span> <span class="o">+</span> <span class="mi">5</span><span class="p">);</span>
-<span class="p">}</span>
-<span class="nx">foo</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
-</code></pre></div></div>
+```javascript
+var foo = function(x) {
+  return(x + 5);
+}
+foo(3)
+```
 
-<p>And here is the same code yet again but with line numbers:</p>
+And here is the same code yet again but with line numbers:
 
 <figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
 2
@@ -280,20 +258,23 @@ foo(3)
 <span class="p">}</span>
 <span class="nx">foo</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span></pre></td></tr></tbody></table></code></pre></figure>
 
-<h2 id="boxes">Boxes</h2>
-<p>You can add notification, warning and error boxes like this:</p>
+## Boxes
+You can add notification, warning and error boxes like this:
 
-<h3 id="notification">Notification</h3>
+### Notification
 
-<p class="box-note"><strong>Note:</strong> This is a notification box.</p>
+{: .box-note}
+**Note:** This is a notification box.
 
-<h3 id="warning">Warning</h3>
+### Warning
 
-<p class="box-warning"><strong>Warning:</strong> This is a warning box.</p>
+{: .box-warning}
+**Warning:** This is a warning box.
 
-<h3 id="error">Error</h3>
+### Error
 
-<p class="box-error"><strong>Error:</strong> This is an error box.</p>
+{: .box-error}
+**Error:** This is an error box.
 
       </article>
 
@@ -309,52 +290,8 @@ foo(3)
       
 
       
-        <!-- Check if any share-links are active -->
-
-
-
-
-<section id = "social-share-section">
-  <span class="sr-only">Share: </span>
-
-  
-  <!--- Share on Twitter -->
-    <a href="https://twitter.com/intent/tweet?text=Test+markdown&url=http%3A%2F%2Flocalhost%3A4000%2F2015-02-28-test-markdown%2F"
-      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
-      <span class="fa fa-fw fa-twitter" aria-hidden="true"></span>
-      <span class="sr-only">Twitter</span>
-    </a>
-  
-
-  
-  <!--- Share on Facebook -->
-    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2F2015-02-28-test-markdown%2F"
-      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
-      <span class="fa fa-fw fa-facebook" aria-hidden="true"></span>
-      <span class="sr-only">Facebook</span>
-    </a>
-  
-
-  
-  <!--- Share on LinkedIn -->
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2F2015-02-28-test-markdown%2F"
-      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
-      <span class="fa fa-fw fa-linkedin" aria-hidden="true"></span>
-      <span class="sr-only">LinkedIn</span>
-    </a>
-  
-
-</section>
-
-
-
-      
 
       <ul class="pager blog-pager">
-        
-        <li class="previous">
-          <a href="/2015-02-26-flake-it-till-you-make-it/" data-toggle="tooltip" data-placement="top" title="Flake it till you make it">&larr; Previous Post</a>
-        </li>
         
         
       </ul>
