@@ -3,7 +3,7 @@ layout: page
 title: Healing from the Inside Out
 subtitle:
 use-site-title: true
-bigimg: /img/logo3.png
+bigimg: /img/logo94.png
 ---
 
 # Healing from the Inside Out
@@ -69,4 +69,4 @@ YOUR DONATIONS ARE ALSO TAX DEDUCTIBLE!
 <!-- optional
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](odear.html)
 {: .text-center}
---> 
+-->
