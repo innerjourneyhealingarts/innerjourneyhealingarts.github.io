@@ -6,7 +6,7 @@ use-site-title: true
 bigimg: /img/logo94.png
 ---
 
-# Healing from the Inside Out
+<h1 style="color:#FFFFCC"> Healing from the Inside Out </h1>
 
 Inner Journey Healing Arts is a safe and sacred place for adults and children to heal from domestic violence, trauma, and stressful life situations.
 
