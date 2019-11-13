@@ -9,7 +9,7 @@ layout: null
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
-  color: #404040; /* 404040 */
+  color: white; /* 404040 */
   position: relative;
   background-color: {{ site.page-col }};
   {% if site.page-img %}
@@ -20,11 +20,13 @@ body {
 p {
   line-height: 1.5;
   margin: 30px 0;
+
   color:#FFFFFF;
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
+  color: #FFFFCC;
 }
 a {
   color: {{ site.link-col }};
@@ -34,7 +36,7 @@ a:focus {
   color: {{ site.hover-col }};
 }
 blockquote {
-  color: #808080;
+  color: #808080; /* 808080 */
   font-style: italic;
 }
 blockquote p:first-child {
@@ -714,7 +716,7 @@ pre {
   margin-bottom: 30px;
 }
 
-/* --- Notification boxes --- */
+/* --- Notification boxes -------------------------------------------------------------------- */
 .box-note, .box-warning, .box-error, .box-success {
   padding: 15px 15px 15px 10px;
   margin: 20px 20px 20px 5px;
@@ -726,21 +728,28 @@ pre {
 .box-note {
   background-color: #eee;
   border-left-color: #2980b9;
+
+  color: black;
 }
 
 .box-warning {
   background-color: #fdf5d4;
   border-left-color: #f1c40f;
+  color: black;
 }
 
 .box-error {
   background-color: #f4dddb;
   border-left-color: #c0392b;
+
+  color: black;
 }
 
 .box-success {
   background-color: #98FB98;
   border-left-color: #3CB371;
+
+  color: black;
 }
 
 /* Fix table border github gist snippets */
