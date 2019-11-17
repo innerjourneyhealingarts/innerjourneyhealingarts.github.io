@@ -33,6 +33,9 @@ Toll Free: 800.275.6434 <br> Say "I would like to Donate to Inner Journey"
 [WHO DO WE SERVE?](/whoweserve/index.html)
 {: .box-note .text-center}
 
+[ABOUT US](/about/index.html)
+{: .box-note .text-center}
+
 <!--{: a.jumbotron .get-started-wrap .btn .btn-success .btn-lg .center }-->
 <br>
 
