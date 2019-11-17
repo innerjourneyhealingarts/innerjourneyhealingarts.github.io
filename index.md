@@ -3,7 +3,7 @@ layout: page
 title: Healing from the Inside Out
 subtitle:
 use-site-title: true
-bigimg: /img/logo999.png
+bigimg: /img/logo777.png
 ---
 
 <h1 style="color:#FFFFCC"> Healing from the Inside Out </h1>
